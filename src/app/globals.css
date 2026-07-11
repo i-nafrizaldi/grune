@@ -1,5 +1,4 @@
-
-@import 'tailwindcss';
+@import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
@@ -8,7 +7,6 @@
 @theme {
   --color-gruneGreen: #25671e;
   --color-gruneWhite: #fcf9f2;
-
 }
 
 @theme inline {
@@ -52,7 +50,6 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
-
 }
 
 :root {
@@ -88,7 +85,6 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
-
 }
 
 .dark {
@@ -123,21 +119,16 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
-
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
-
   }
   body {
     @apply bg-background text-foreground;
-
   }
   html {
     @apply font-sans;
-
   }
-
 }

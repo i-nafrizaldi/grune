@@ -15,9 +15,9 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-import hero1 from "../../../public/asset/GRUNE-HERO-CAROUSEL-1.webp";
+import hero3 from "../../../public/asset/GRUNE-HERO-CAROUSEL-1.webp";
 import hero2 from "../../../public/asset/GRUNE-HERO-CAROUSEL-2.webp";
-import hero3 from "../../../public/asset/GRUNE-HERO-CAROUSEL-3.webp";
+import hero1 from "../../../public/asset/GRUNE-HERO-CAROUSEL-3.webp";
 import hero4 from "../../../public/asset/GRUNE-HERO-CAROUSEL-4.webp";
 
 const heroSlides = [

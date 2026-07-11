@@ -18,7 +18,7 @@ export function Footer() {
             <Link
               href="/"
               aria-label={`${siteConfig.name} homepage`}
-              className="relative block w-full h-20ç shrink-0 rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gruneGreen"
+              className="relative block w-full h-20 shrink-0 rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gruneGreen"
             >
               <Image
                 src="/asset/8-Photoroom.png"
